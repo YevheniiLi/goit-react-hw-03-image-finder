@@ -10,7 +10,7 @@ export default class Modal extends Component {
   componentDidMount() {
     console.log('Modal componentDidMount');
 
-    // Закрытие моадлки по кнопке ESC
+    // Закрытие модалки по кнопке ESC
     window.addEventListener('keydown', this.handleKeyDown);
   }
 
