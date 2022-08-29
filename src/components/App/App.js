@@ -12,7 +12,6 @@ export class App extends Component {
     showModal: false,
     searchName: '',
     gallery: [],
-    image:'',
 }
 
 
